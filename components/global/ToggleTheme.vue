@@ -29,9 +29,6 @@ export default {
     icon() {
       return (this.$store.getters.getTheme === "dark") ? ['fas', 'moon'] : ['fas', 'sun'];
     }
-  },
-  mounted() {
-    this.$store.commit("loadTheme");
   }
 }
 </script>
