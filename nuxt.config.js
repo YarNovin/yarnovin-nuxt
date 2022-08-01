@@ -27,10 +27,19 @@ export default {
   ],
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ['@nuxt/postcss8'],
+  buildModules: ['@nuxt/postcss8', '@nuxtjs/fontawesome'],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
+
+  fontawesome: {
+    component: 'Fa',
+    suffix: false,
+    icons: {
+      solid: true,
+      brands: true,
+    },
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
