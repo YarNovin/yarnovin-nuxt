@@ -1,5 +1,5 @@
 <template>
-  <Tutorial />
+  <div>hellow</div>
 </template>
 
 <script>
