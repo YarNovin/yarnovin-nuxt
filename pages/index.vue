@@ -2,8 +2,9 @@
   <div>
     <home-header/>
     <div class="flex flex-col items-stretch py-8 gap-8">
-      <section id="groups" class="max-w-6xl w-full p-5 mx-auto">
-        <h3 class="text-2xl text-center">گروه ها</h3>
+      <section id="services" class="max-w-6xl w-full p-5 mx-auto">
+        <h3 class="text-4xl text-center mb-4">خدمات ما</h3>
+        <HomeServices/>
       </section>
     </div>
   </div>
