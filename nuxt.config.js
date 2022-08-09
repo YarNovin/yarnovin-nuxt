@@ -1,5 +1,5 @@
 export default {
-  target: "static",
+  target: 'static',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: 'یار نوین - %s',
@@ -22,10 +22,7 @@ export default {
   plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
-  components: [
-    '~/components',
-    { path: '~/components/global', prefix: 'global' },
-  ],
+  components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: ['@nuxt/postcss8', '@nuxtjs/fontawesome'],
