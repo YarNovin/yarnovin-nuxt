@@ -16,13 +16,3 @@
     </div>
   </div>
 </template>
-
-<script>
-export default {
-  methods: {
-    switchTheme() {
-      document.documentElement.classList.toggle('dark')
-    },
-  },
-}
-</script>
